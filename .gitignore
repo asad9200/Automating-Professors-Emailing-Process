@@ -1,0 +1,43 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+.streamlit/secrets.toml
+
+# Virtual environment & Dependencies
+.venv/
+venv/
+ENV/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# SQLite & Databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+emailering.db
+emailering_checkpoints.db*
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Cache & Test Tooling
+.pytest_cache/
+.ruff_cache/
+.vite/
+scratch/
